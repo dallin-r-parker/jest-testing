@@ -7,7 +7,11 @@ export default class Login extends Component {
 
 	render(){
 		return (
-			<div className="login-container" />
+			<form className="login-container">
+				<input type="email" placeholder="test@example.com"/>
+				<input type="password" placeholder="password"/>
+				<button action="submit">Login</button>
+			</form>
 		)
 	}
 }
